@@ -11,10 +11,10 @@
     <nav class="header__navigation">
         <ul class="navigation__list">
             <li class="navigation__item"><a href="#summary">Summary</a></li>
+            <li class="navigation__item"><a href="#skills">Skills</a></li>
+            <li class="navigation__item"><a href="#education">Education</a></li>
             <li class="navigation__item"><a href="#code">Code</a></li>
             <li class="navigation__item"><a href="#experience">Experience</a></li>
-            <li class="navigation__item"><a href="#education">Education</a></li>
-            <li class="navigation__item"><a href="#english">English</a></li>
         </ul>
     </nav>
     <div class="wrapper">
@@ -22,55 +22,79 @@
             <h1>Valeryia Yarash</h1>
             <h3>Front-End Developer</h3>
             <figure>
-                <img class="header_img" src="assets/istockphoto-1330292875-170667a.jpg" alt="Avatar" width="200" height="200">
+                <img class="header_img" src="assets/97828680.png" alt="Avatar" width="250" height="250">
             </figure>
         </header>
-        
         <main>
-        <h2>Contact Information</h2>
-        <ul>
-            <li><strong>Location:</strong> Budva, Montenegro</li>
-            <li><strong>GitHub:</strong><a href="https://github.com/valeryiay"> valeryiay</a></li>
-            <li><strong>Telegram:</strong><a href="https://t.me/valeryiay"> valeryiay</a></li>
-        </ul>
-        <div>
+        <section>
+            <h2>Contact Information</h2>
+            <ul>
+            <li class="contacts"><b>Location:</b> Budva, Montenegro</li>
+            <li class="contacts"><b>GitHub:</b><a href="https://github.com/valeryiay"> valeryiay</a></li>
+            <li class="contacts"><b>Discord:</b><a href="valeryia#5375"> valeryia#5375</a></li>
+            </ul>
+        </section>            
+        <section>
             <h2 id="summary">Summary</h2>
-            <p>Summary (your goal, wishes, reveal what is important for you, what do you want and why. Some kind of self-presentation. In case of lack of experience Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always learning new things from everywhere etc.). Hello, my name is Valeryia, i'm starting in front-end development.</p>
-        </div>
-        <div>
+            <p>My goal is to master the key set of knowledge and skills needed by a frontend developer. I am currently attending the RSSchool frontend course. I'm ready to take responsibilities, able to grasp new concepts quickly, take on new challenges, stay focused.</p>
+        </section>
+        <section>
+            <h2 id="skills">Skills</h2>
+            <ul class="skills__list">
+                <li>Git GitHub</li>
+                <li>HTML5</li>
+                <li>CSS3/SCSS</li>
+                <li>JavaScript</li>
+                <li>DOM</li>
+                <li>Node.js</li>
+                <li>Webpack</li>
+                <li>Figma</li>
+                <li>English B1</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="education">Education</h2>
+            <p>The Rolling Scopes School Pre-School course</p>
+            <p>At the moment my English level is intermediate, and I’m attending upper-intermediate courses.</p>
+        </section>
+        <section>
             <h2 id="code">Code example</h2>
             <pre><code>
-                function multiply(a, b){
-                    return a * b
-                }
+    function multiply(a, b){
+        return a * b
+    }
             </code></pre>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2 id="experience">Experience</h2>
-            <p id="education">Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses, freelance projects - wherever they had the opportunity to demonstrate skills they have. Also it would be awesome if you add links to source code)</p>
-        </div>
-        <div>
-            <h2 id="education">Education</h2>
-            <p>Education (including courses, seminars, lectures, online learning) The Rolling Scopes School</p>
-        </div>
-        <div>
-            <h2 id="english">English</h2>
-            <p>English (elaborate on what kind of practice you had, if any, how long it lasted and so on)</p>
-        </div>
-        </main>
-    </div>
-<footer>
-    <nav class="footer_container">
-        <a href="https://github.com/valeryiay" target="_blank">
-            <img src="assets/kindpng_1280187.png" alt="GitHub" width="" height="40">
-        </a>
-        <p>2022</p>
-        <a  href="https://rs.school/js/" target="_blank">
-            <img src="assets/rs_school_js.svg" alt="RSSchool" width="" height="40">
-        </a>
-    </nav>
-</footer>
-
-    
+            <p>Projects from courses</p>
+            <div class="experience">                
+                <a href="https://valeryiay-jsfe2022q1-virtual-keyboard.netlify.app/">
+                    <img class="experience__item" src="/assets/virtual-keyboard.png" alt="virtual-keyboard" width="200" height="200">
+                    <p class="virtual-keyboard__title">Virtual Keyboard</p>
+                </a>
+                <a href="https://starlit-sundae-44885f.netlify.app/">
+                    <img class="experience__item" src="/assets/shelter.png" alt="shelter" width="200" height="200">
+                    <p class="shelter__title">Shelter</p>
+                </a>
+                <a href="https://quirky-euler-8fd848.netlify.app/">
+                    <img class="experience__item" src="/assets/tic-tac-toe.png" alt="tic-tac-toe" width="200" height="200">
+                    <p class="tic-tac-toe__title">Tic Tac Toe</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    </div>        
+    <footer>
+        <nav class="footer_container">
+            <a href="https://github.com/valeryiay" target="_blank">
+                <img src="assets/kindpng_1280187.png" alt="GitHub" width="128" height="40">
+            </a>
+            <p class="year">2022</p>
+            <a  href="https://rs.school/js/" target="_blank">
+                <img src="assets/rs_school_js.svg" alt="RSSchool" width="107" height="40">
+            </a>
+        </nav>
+    </footer>
 </body>
 </html>
