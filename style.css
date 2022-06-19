@@ -1,17 +1,19 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     color: darkslategrey;
 }
 
 .header__navigation {
-    background-color: lightblue;
+    background: linear-gradient(0deg, lightcyan 0%, wheat 100%);
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
     height: 80px;
+    max-width: 1280px;
+    width: 100%;
 }
 
 .navigation__list {
@@ -37,31 +39,34 @@ body {
     font-family: sans-serif;
     font-weight: 400;
     background: whitesmoke;
-
     line-height: 32px;
 }
 
 .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1280px;
     display: flex;
     align-items: center;
+    background: lightcyan;
 }
 
 header {
     font-weight: 600;
     line-height: 50px;
-    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 10px;
-    border-radius: 2%;
     text-align: center;
 }
 
 h1 {
     font-size: 40px;
+    color: darkcyan;
+    padding: 20px;
+}
+
+h2 {
+    color: darkcyan;
+    padding: 10px 0;
 }
 
 h3 {
@@ -72,25 +77,28 @@ figure {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 250px;
-    height: 250px;
-    z-index: 2;
+    width: 300px;
+    height: 300px;
     margin: 40px auto;
 }
 
 .header_img {    
     border-radius: 50%;
-    border: 5px solid lightblue;
+    border: 3px solid darkcyan;
+    align-items: center;
 }
 
 main {
-    width: 60%;
     background-color: lightcyan;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 50px;
-    border-radius: 2%;
+    height: 8100%;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 
@@ -98,13 +106,57 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
     max-width: 1280px;
     margin: 0 auto;
-    padding-left: 24px;
-    padding-right: 24px;
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 30px;
-    background-color: lightblue;
+    padding: 20px 80px;
+    background: linear-gradient(0deg, wheat 0%, lightcyan 100%);
+}
+
+.year {
+    font-size: 20px;
+}
+
+section {
+    margin: 2px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    transition: box-shadow 0.3s, background-color 0.3s;
+    height: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.experience {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.skills__list {
+    column-count: 3;
+    column-gap: 5rem;          
+    column-rule: 1px solid darkcyan;
+    padding: 10px;
+}
+
+.experience {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.experience__item {
+    border: 3px solid darkcyan;
+}
+
+p {
+    padding: 5px;
+}
+
+.contacts {
+    padding: 5px;
 }
