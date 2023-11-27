@@ -14,14 +14,14 @@ body {
 }
 
 .container {
+  max-width: 800px;
   margin: auto;
   align-items: center;
   justify-content: center;
 }
 
 .wrapper {
-  max-width: 1280px;
-  display: flex;
+  max-width: 800px;
   background: whitesmoke;
 }
 
@@ -31,7 +31,6 @@ main {
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
-  height: 8100%;
   line-height: 20px;
   margin: 0;
   padding: 0;
@@ -79,16 +78,11 @@ header {
 h1 {
   font-size: 40px;
   color: darkcyan;
-  padding: 20px;
 }
 
 h2 {
   color: darkcyan;
   padding: 10px 0;
-}
-
-h3 {
-  font-size: 20px;
 }
 
 .header_img {
@@ -100,10 +94,7 @@ h3 {
 figure {
   display: flex;
   justify-content: center;
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 40px auto;
+  margin: 20px auto 40px;
 }
 
 .footer_container {
