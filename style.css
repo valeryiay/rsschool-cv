@@ -13,12 +13,16 @@ body {
   line-height: 32px;
 }
 
+.container {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
 .wrapper {
   max-width: 1280px;
   display: flex;
-  align-items: center;
   background: whitesmoke;
-  
 }
 
 main {
@@ -159,4 +163,9 @@ p {
 
 .contacts {
   padding: 5px;
+}
+
+pre {
+  text-align: left;
+  padding-left: 25%;
 }
