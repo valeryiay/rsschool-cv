@@ -17,11 +17,11 @@ body {
   max-width: 1280px;
   display: flex;
   align-items: center;
-  background: aquamarine;
+  background: whitesmoke;
 }
 
 main {
-  background-color: lightcyan;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +34,7 @@ main {
 }
 
 .header__navigation {
-  background: linear-gradient(0deg, aquamarine 0%, lightcyan 100%);
+  background: linear-gradient(0deg, whitesmoke 0%, lightcyan 100%);
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -101,3 +101,61 @@ figure {
   margin: 40px auto;
 }
 
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 80px;
+  background: linear-gradient(0deg, lightcyan 0%, whitesmoke 100%);
+}
+
+.year {
+  font-size: 20px;
+}
+
+section {
+  margin: 2px;
+  padding: 10px;
+  align-items: center;
+  box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+  transition: box-shadow 0.3s, background-color 0.3s;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.experience {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.skills__list {
+  column-count: 3;
+  column-gap: 5rem;
+  column-rule: 1px solid darkcyan;
+  padding: 10px;
+}
+
+.experience {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.experience__item {
+  border: 3px solid darkcyan;
+}
+
+p {
+  padding: 5px;
+}
+
+.contacts {
+  padding: 5px;
+}
