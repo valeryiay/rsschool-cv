@@ -5,3 +5,13 @@
   color: darkslategrey;
 }
 
+.header__navigation {
+  background: linear-gradient(0deg, aquamarine 0%, wheat 100%);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  height: 80px;
+  max-width: 1280px;
+  width: 100%;
+}
