@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  color: darkslategrey;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  background: whitesmoke;
+  line-height: 32px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 800px;
+  background: whitesmoke;
+}
+
+main {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header__navigation {
+  background: linear-gradient(0deg, whitesmoke 0%, lightcyan 100%);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  height: 80px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.navigation__list {
+  overflow: hidden;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  word-spacing: 30px;
+}
+
+.navigation__item {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  padding: 20px auto;
+  text-decoration: none;
+  float: center;
+}
+
+header {
+  font-weight: 600;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: darkcyan;
+}
+
+h2 {
+  color: darkcyan;
+  padding: 10px 0;
+}
+
+.header_img {
+  border-radius: 50%;
+  border: 3px solid darkcyan;
+  align-items: center;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 40px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 80px;
+  background: linear-gradient(0deg, lightcyan 0%, whitesmoke 100%);
+}
+
+.year {
+  font-size: 20px;
+}
+
+section {
+  margin: 2px;
+  padding: 10px;
+  align-items: center;
+  box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+  transition: box-shadow 0.3s, background-color 0.3s;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.experience {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.skills__list {
+  column-count: 3;
+  column-gap: 5rem;
+  column-rule: 1px solid darkcyan;
+  padding: 10px;
+}
+
+.experience {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.experience__item {
+  border: 3px solid darkcyan;
+}
+
+p {
+  padding: 5px;
+}
+
+.contacts {
+  padding: 5px;
+}
+
+pre {
+  text-align: left;
+  padding-left: 25%;
+}
